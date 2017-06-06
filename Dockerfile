@@ -1,4 +1,4 @@
-FROM cargomedia/base:v1
+FROM cargomedia/base:latest
 
 ENV FACTER_janus_hostname 'example.com'
 
