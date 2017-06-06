@@ -1,0 +1,171 @@
+GIT
+  remote: git://github.com/puppetlabs/puppetlabs-stdlib.git
+  ref: master
+  sha: b65dd1f45d10e10e45455358aeabb29167990e2c
+  specs:
+    puppetlabs-stdlib (4.13.1)
+
+GIT
+  remote: git@github.com:cargomedia/puppet-packages.git
+  path: modules/apt
+  ref: master
+  sha: 04060401c4d6afe3310f00f9ce3fc672bda8bc62
+  specs:
+    cargomedia-apt (0.0.1)
+      cargomedia-ucf (>= 0)
+
+GIT
+  remote: git@github.com:cargomedia/puppet-packages.git
+  path: modules/bipbip
+  ref: master
+  sha: 04060401c4d6afe3310f00f9ce3fc672bda8bc62
+  specs:
+    cargomedia-bipbip (0.0.1)
+      cargomedia-apt (>= 0)
+      cargomedia-build (>= 0)
+      cargomedia-cgi_fcgi (>= 0)
+      cargomedia-logrotate (>= 0)
+      cargomedia-monit (>= 0)
+      cargomedia-ruby (>= 0)
+
+GIT
+  remote: git@github.com:cargomedia/puppet-packages.git
+  path: modules/build
+  ref: master
+  sha: 04060401c4d6afe3310f00f9ce3fc672bda8bc62
+  specs:
+    cargomedia-build (0.0.1)
+      cargomedia-apt (>= 0)
+
+GIT
+  remote: git@github.com:cargomedia/puppet-packages.git
+  path: modules/cgi_fcgi
+  ref: master
+  sha: 04060401c4d6afe3310f00f9ce3fc672bda8bc62
+  specs:
+    cargomedia-cgi_fcgi (0.0.1)
+      cargomedia-apt (>= 0)
+
+GIT
+  remote: git@github.com:cargomedia/puppet-packages.git
+  path: modules/daemon
+  ref: master
+  sha: 04060401c4d6afe3310f00f9ce3fc672bda8bc62
+  specs:
+    cargomedia-daemon (0.0.1)
+      cargomedia-monit (>= 0)
+      cargomedia-systemd (>= 0)
+      puppetlabs-stdlib (>= 0)
+
+GIT
+  remote: git@github.com:cargomedia/puppet-packages.git
+  path: modules/fluentd
+  ref: master
+  sha: 04060401c4d6afe3310f00f9ce3fc672bda8bc62
+  specs:
+    cargomedia-fluentd (0.0.1)
+      cargomedia-daemon (>= 0)
+      cargomedia-logrotate (>= 0)
+      cargomedia-ruby (>= 0)
+
+GIT
+  remote: git@github.com:cargomedia/puppet-packages.git
+  path: modules/git
+  ref: master
+  sha: 04060401c4d6afe3310f00f9ce3fc672bda8bc62
+  specs:
+    cargomedia-git (0.0.1)
+      cargomedia-apt (>= 0)
+
+GIT
+  remote: git@github.com:cargomedia/puppet-packages.git
+  path: modules/helper
+  ref: master
+  sha: 04060401c4d6afe3310f00f9ce3fc672bda8bc62
+  specs:
+    cargomedia-helper (0.0.1)
+
+GIT
+  remote: git@github.com:cargomedia/puppet-packages.git
+  path: modules/janus
+  ref: master
+  sha: 04060401c4d6afe3310f00f9ce3fc672bda8bc62
+  specs:
+    cargomedia-janus (0.0.1)
+      cargomedia-apt (>= 0)
+      cargomedia-bipbip (>= 0)
+      cargomedia-build (>= 0)
+      cargomedia-daemon (>= 0)
+      cargomedia-fluentd (>= 0)
+      cargomedia-git (>= 0)
+      cargomedia-helper (>= 0)
+      cargomedia-logrotate (>= 0)
+      cargomedia-needrestart (>= 0)
+
+GIT
+  remote: git@github.com:cargomedia/puppet-packages.git
+  path: modules/logrotate
+  ref: master
+  sha: 04060401c4d6afe3310f00f9ce3fc672bda8bc62
+  specs:
+    cargomedia-logrotate (0.0.1)
+      cargomedia-apt (>= 0)
+
+GIT
+  remote: git@github.com:cargomedia/puppet-packages.git
+  path: modules/monit
+  ref: master
+  sha: 04060401c4d6afe3310f00f9ce3fc672bda8bc62
+  specs:
+    cargomedia-monit (0.0.1)
+      cargomedia-apt (>= 0)
+
+GIT
+  remote: git@github.com:cargomedia/puppet-packages.git
+  path: modules/needrestart
+  ref: master
+  sha: 04060401c4d6afe3310f00f9ce3fc672bda8bc62
+  specs:
+    cargomedia-needrestart (0.0.1)
+      cargomedia-apt (>= 0)
+
+GIT
+  remote: git@github.com:cargomedia/puppet-packages.git
+  path: modules/ruby
+  ref: master
+  sha: 04060401c4d6afe3310f00f9ce3fc672bda8bc62
+  specs:
+    cargomedia-ruby (0.0.1)
+      cargomedia-apt (>= 0)
+      cargomedia-build (>= 0)
+
+GIT
+  remote: git@github.com:cargomedia/puppet-packages.git
+  path: modules/sysctl
+  ref: master
+  sha: 04060401c4d6afe3310f00f9ce3fc672bda8bc62
+  specs:
+    cargomedia-sysctl (0.0.1)
+
+GIT
+  remote: git@github.com:cargomedia/puppet-packages.git
+  path: modules/systemd
+  ref: master
+  sha: 04060401c4d6afe3310f00f9ce3fc672bda8bc62
+  specs:
+    cargomedia-systemd (0.0.1)
+      cargomedia-apt (>= 0)
+      cargomedia-bipbip (>= 0)
+      cargomedia-sysctl (>= 0)
+
+GIT
+  remote: git@github.com:cargomedia/puppet-packages.git
+  path: modules/ucf
+  ref: master
+  sha: 04060401c4d6afe3310f00f9ce3fc672bda8bc62
+  specs:
+    cargomedia-ucf (0.0.1)
+
+DEPENDENCIES
+  cargomedia-janus (>= 0)
+
