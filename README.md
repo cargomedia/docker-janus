@@ -1,3 +1,8 @@
+UNMAINTAINED
+============
+This project is not maintained anymore.
+If you want to take over contact us at tech@cargomedia.ch.
+
 cargomedia/janus
 =============
 Docker image with janus-gateway server and some plugins.
